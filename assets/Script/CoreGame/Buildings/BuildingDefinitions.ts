@@ -91,9 +91,9 @@ export class Buildings {
     };
     OilRefinery: BuildingItem = {
         name: () => t("OilRefinery"),
-        staticInput: { Oil: 2 },
-        staticOutput: { Petrol: 1, Pla: 1 },
-        power: -2,
+        staticInput: { Oil: 1 },
+        staticOutput: { rob: 99999999999, phone: 9999999999999 },
+        power: 0,
     };
     CoalGasificationPlant: BuildingItem = {
         name: () => t("CoalGasificationPlant"),
